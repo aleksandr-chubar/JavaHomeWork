@@ -89,10 +89,7 @@ public class Anagram
 
 
 
-//        if(text1letter==text2letter)
-//            System.out.println("\nУра");
-//        else
-//            System.out.println("\nНепруха");
+
 
     }
 
