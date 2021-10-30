@@ -50,7 +50,6 @@ public class Anagram
         while(m.find())
         {
             String bukvyIzTeksta = (prostoslova.substring(m.start(), m.end()));
-//            System.out.println("bukvyIzTeksta " + bukvyIzTeksta);
             return (bukvyIzTeksta);
         }
         return pattern;
@@ -82,7 +81,7 @@ public class Anagram
 
 
 
-        //Все самое главное ниже. Диалоги с пользователем и методы были в начале :)
+
         String text1 = "Я в мире - сирота";
         String text2 = "Я в Риме - Ариост";
         String text3 = "Аз есмь строка, живу я, мерой остр";
