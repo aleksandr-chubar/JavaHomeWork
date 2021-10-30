@@ -34,11 +34,9 @@ public class Anagram
     static String LC(String text)  //LowerCase+ArraySort
     {
 
-//        System.out.print("Текст словился методом: \t" + text);
         char[] buffer = text.toLowerCase().toCharArray();
         Arrays.sort(buffer);
         String buffer1 = String.valueOf(buffer);
-//        System.out.println("\nНа выхлопе: \t" + buffer1);
         return (buffer1);
     }
 
