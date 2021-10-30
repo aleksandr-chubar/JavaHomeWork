@@ -45,16 +45,15 @@ public class CapitalLetter {
         }
 
 
-if (stroka==1)
-    {
-    stroka++;
-    myPechatat(stroka);                 //Информационная строка 2 если прошли проверки 000 выход, пробел автоввод
-    myPechatat(userText);
-    }
+    if (stroka==1)
+        {
+            stroka++;
+            myPechatat(stroka);                 //Информационная строка 2 если прошли проверки 000 выход, пробел автоввод
+            myPechatat(userText);
+        }
 
 
-
-        char[] bukva = userText.toCharArray();              //Переводим текст в массив букв
+    char[] bukva = userText.toCharArray();              //Переводим текст в массив букв
 
 
         for (int i = 0; i < bukva.length; i++)              //Этот цикл делает все буквы прописными
